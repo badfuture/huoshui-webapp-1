@@ -1,0 +1,40 @@
+/*-------------------------------------------
+* Color Definition
+*-------------------------------------------*/
+
+$primary-color:  rgba(229, 77, 66, 1.0);
+$primary-color-transparent: rgba(229, 77, 66, 0.15);
+
+$primary-color-light: rgba(229, 96, 89, 1.0);
+
+$primary-bg-color: #FFF0F0;
+$login-bg-color: #D0554C;
+
+
+$inverse-text-color: white;
+
+$grey-bg-color: rgba(234,234,234,1);
+
+$ipad-inner-screen-color: rgba(20,20,20,1);
+
+/*----------------------------------------
+dimension
+*----------------------------------------*/
+$navbar-height: 50px;
+$footer-height: 100px;
+
+
+$book-height: 794;
+$book-width: 693;
+$book-height-vh: 85vh;
+$book-width-vh: $book-height-vh * $book-height / $book-width;
+
+$height_ratio: 0.787;
+$width_ratio: 0.520;
+
+$top_offset_vh: 7.3vh;
+$right_offset_vh: 22.15vh;
+
+$mobile-iframe-height-vh: $book-height-vh * $height_ratio;
+$mobile-iframe-width-vh: $book-width-vh * $width_ratio;
+$mobile-inner-screen-top-offset: $mobile-iframe-height-vh * 0.35;

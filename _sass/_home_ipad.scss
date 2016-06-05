@@ -1,0 +1,54 @@
+@media screen
+  and (min-width: 0px)
+  and (max-width: 1150px)  {
+
+    div#home-title {
+      display: none;
+    }
+    div#home-social{
+      display: none;
+    }
+
+    #over {
+        background-image: url("../images/background_ipad.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        height: $book-height-vh;
+        width: $book-width-vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:30px;
+        position: absolute;
+        display: block;
+        bottom: -2vh;
+        right: 10vw;
+        left: auto;
+
+    }
+    iframe {
+        height: $mobile-iframe-height-vh;
+        width: $mobile-iframe-width-vh;
+        position: absolute;
+        top: $top_offset_vh;
+        right: $right_offset_vh;
+        border: 0px;
+        z-index: 1000;
+    }
+
+
+    #ipad-inner-screen {
+        height: $mobile-iframe-height-vh;
+        width: $mobile-iframe-width-vh;
+        position: absolute;
+        top: $top_offset_vh;
+        right: $right_offset_vh;
+        border: 0px;
+        background-color: $ipad-inner-screen-color;
+    }
+
+
+    .loading-container h3 {
+        color: white;
+
+    }
+}

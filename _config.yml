@@ -1,0 +1,17 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 活水 | 最真实的评课平台
+email: paladinze@hotmail.com
+description: >
+  活水，中国最真实的评课情报。这是一个让学生自由发声的平台，它集中了大学生们对于当下高校教育的真实想法。你可以抒发对老师、课程的真实感想，说出自己的经历和心声，你还可以参考同学们留下的心得体会，让自己能够成竹在胸。改变来源于积累，你的点滴声音大家都在乎。
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://huoshui.org" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,18 @@
+nav.navbar.navbar-default.navbar-fixed-top {
+    background-color: $login-bg-color;
+
+    li>a {
+        color: $inverse-text-color;
+    }
+
+    .navbar-brand {
+        color: $inverse-text-color;
+        font-size:30px;
+        font-weight: bold;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #FFF;
+    }
+
+}
